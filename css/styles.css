@@ -1,0 +1,94 @@
+﻿html{
+    font-size: 62.5%;
+}
+body {
+    font-family:'Lato', sans-serif;
+    font-size: 1.6rem;
+    
+}
+
+/*Globales*/
+.contenedor {
+    max-width: 130rem;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 10rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+/*Header*/
+.site-header.inicio{
+    background-image: url(../img/head_inver.JPG);
+    background-position: center, center;
+    background-size: cover;
+    height: 100vh;
+    min-height:100rem;
+
+}
+
+.contenido-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    .contenido-header h1 {
+        padding-bottom: 55rem;
+        color: #008080;
+        max-width: 150rem;
+    }
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 3rem;
+
+}
+
+.navegacion a {
+    color: grey;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+}
+.navegacion a:hover{
+    color: white;
+}
+.navegacion a:last-of-type{
+    margin: 0;
+}
+
+/*Icoc nosotros*/
+.iconos-nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono {
+    flex-basis: calc(33.3% - 1rem);
+    text-align: left;
+}
+
